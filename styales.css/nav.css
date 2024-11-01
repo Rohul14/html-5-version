@@ -1,0 +1,31 @@
+nav > ul{
+    display: flex;
+
+}
+nav li{
+    list-style: none;
+    margin: 24px;
+    padding:20 ;
+    font-size: x-large;
+}
+nav li >a{
+    text-decoration: none;
+    color: rgb(73, 54, 193);
+}
+nav li:hover{
+    background-color: rgb(246, 242, 242);
+}
+footer{
+    text-align: center;
+    font-size: larger;
+    margin-top: 30px ;
+}
+h2 h3 {
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+h4  {
+    font-size:large;
+
+}
+    

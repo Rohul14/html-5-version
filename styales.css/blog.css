@@ -1,0 +1,27 @@
+nav >ul{
+    display: flex;
+    font-size: 24px;
+    
+}
+nav  ul li{
+    list-style: none;
+    margin-right: 16px;
+    padding: 6px;
+}
+nav  li a {
+    text-decoration: none;
+}
+nav li:hover {
+    background-color: azure;
+}
+
+/* nested menu styles */
+nav li .hello{
+    display: none;
+    /* list-style: none; */
+}
+nav li:hover> .hello{
+    display: block;
+}
+
+
