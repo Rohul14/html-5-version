@@ -1,6 +1,7 @@
 nav > ul >li {
     margin-bottom:  20px ;
     font-size: x-large;
+    display: block;
 }
 nav li >a {
           text-decoration: none;
