@@ -1,0 +1,21 @@
+nav > ul >li {
+    margin-bottom:  20px ;
+    font-size: x-large;
+}
+nav li >a {
+          text-decoration: none;
+          color: rgb(61, 13, 185);
+}
+header >h2{
+    font-size: x-large ;
+    font-family: 'Courier New', Courier, monospace;
+}
+footer{
+    margin: 80px;
+    font-size: larger;
+    text-align: center;
+    
+}
+footer >p >a{
+    text-decoration: none;
+}
