@@ -4,20 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form2</title>
+    <link rel="shortcut icon" href="Media/Image/ricon_2.png" type="image/x-icon">
     <style>
-        label{
-            margin-bottom:  15px;
+           label{
             display: block;
+            margin: 10px;
             font-size: x-large;
-        }
-        legend{
+           }
+           fieldset{
+            margin: 30px;
+           }
+           legend{
             font-size: xx-large;
-            font-family: 'Times New Roman', Times, serif;
-        }
-        fieldset{
-            margin-top: 50px;
-        }
+           }
 
+           
     </style>
 </head>
 <body>
@@ -25,24 +26,24 @@
 
     </header>
     <main>
-          <form >
-        
-                <label for="Your Name">Your Name:
+          <section>
+            <h2>Please Fill Up The Form</h2> 
+            <form>
+                <label for="">Your Name:
                     <input type="text" placeholder="Your Name">
                 </label>
-                <label for="Your Gmail">Your Email:
-                    <input type="email" name="" id="" placeholder="Your Email">
-                </label>
-                <label for="Your Number">Your Number:
-                    <input type="number" name="" id="" placeholder="Your Number">
-                </label>
-                <label for="Passport NO">Passport NO:
-                    <input type="text" placeholder="Passport NO">
-                </label>
-            
-            </form>
-            <fieldset>
-                <legend>Our Visit List In Worldwide </legend>
+                <label for="email">Your Email:
+                    <input type="email" name="" id="email"
+                    placeholder="Your Email"></label>
+                    <label for="number">Your Number:
+                        <input type="number" name="" id="number" placeholder="Your Number">
+                    </label>
+                    <label for="passport number">Your Passport No:
+                        <input type="text" name="" id="passport number" placeholder="Your Passport No">
+                    </label>
+
+                    <fieldset>
+                    <legend>Our Visit List In Worldwide </legend>
                          <label for="list">
                             <input type="radio" name="list" id="">UK
                          </label>
@@ -58,57 +59,49 @@
                             <label for="list">
                                 <input type="radio" name="list" id="">UAE
                             </label>
-            </fieldset>
-            
+                            
+                </fieldset>
             <fieldset>
-                <legend>Europe Visit List</legend>
-                <label for="">
-                    <input type="checkbox" name="" id="">France
-                </label>
-                <label for="">
-                    <input type="checkbox" name="" id="">Germany
-                </label>
-                <label for="">
-                    <input type="checkbox" name="" id="">Italy
-                </label>
-                <label for="">
-                    <input type="checkbox" name="" id="">Spain
-                </label>
-                <label for="">
-                     <input type="checkbox" name="" id="">Switzerland
-                </label>
-                <label for="">
-                    <input type="checkbox" name="" id="">Finland
-                </label>
-                <label for="">
-                    <input type="checkbox" name="" id="">Ireland
-                </label>
-                <label for="">
-                    <input type="checkbox" name="" id="">Netherlands
-                </label>
-                <label for="">
-                    <input type="checkbox" name="" id="">Portugal
-                </label>
-                <label for=""> 
-                    <input type="checkbox" name="" id="">Belgium
-                </label>
-            </fieldset>
+                <legend>Europe Visit List</legen>
 
-            <fieldset>
-                <legend>Your Comment</legend>
-                <textarea   name="" id="" cols="30" rows="10"></textarea>
-            </fieldset>
-
+                    <label for="">
+                       <input type="checkbox" name="" id="">France
+                    </label>
+                    <label for="">
+                       <input type="checkbox" name="" id="">Germany
+                    </label>
+                    <label for="">
+                       <input type="checkbox" name="" id="">Italy
+                    </label>
+                    <label for="">
+                       <input type="checkbox" name="" id="">Spain
+                    </label>
+                    <label for="">
+                       <input type="checkbox" name="" id="">Switzerland
+                    </label>
+                    <label for="">
+                       <input type="checkbox" name="" id="">Finland
+                    </label>
+                    <label for="">
+                       <input type="checkbox" name="" id="">Ireland
+                    </label>
+                    <label for="">
+                       <input type="checkbox" name="" id="">Netherlands
+                    </label>
+                    <label for="">
+                       <input type="checkbox" name="" id="">Portugal
+                    </label>
+                    <label for="">
+                       <input type="checkbox" name="" id="">Belgium
+                    </label>
+            </fieldset>      
+                        
+                        <p><input type="reset" value="reset"></p>
+                        <p><input type="submit" value="submit"></p>
+                    
                 
-           
-           
-               
-               <p><input type="reset" value="reset"></p>
-               <p><input type="submit" value="submit"></p>
-
-            
-
-            
+            </form>
+          </section>
     </main>
     <footer>
 
