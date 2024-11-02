@@ -20,7 +20,7 @@ nav li .hello{
     display: none;
     /* list-style: none; */
 }
-nav li:hover> .hello{
+nav li:hover.hello{
     display: block;
 }
 

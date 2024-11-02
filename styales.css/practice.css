@@ -1,0 +1,14 @@
+form label{
+    display: block;
+    margin-top: 12px;
+}
+nav div{
+    margin: 14px;
+}
+footer input{
+    color: rgb(91, 26, 213);
+    
+}
+div a{
+    text-decoration: none;
+}
